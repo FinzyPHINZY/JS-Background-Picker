@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1.125rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    width: 55%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+    text-transform: uppercase;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 3rem 2rem;
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+
+#blue {
+    background-color: cornflowerblue;
+}
+
+#black {
+    color: #fff;
+    background: black;
+}
+
+#thistle {
+    background: thistle;
+}
+#grey {
+    background-color: darkgrey;
+}
+
+
